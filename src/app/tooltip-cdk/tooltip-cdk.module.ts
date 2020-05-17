@@ -9,7 +9,7 @@ import { TooltipDataComponent } from './tooltip-data/tooltip-data.component';
 @NgModule({
   declarations: [
     TooltipCdkComponent,
-    TooltipDirectiveDirective,
+    TooltipDirective,
     TooltipDataComponent
   ],
   imports: [
