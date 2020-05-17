@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { OverlayModule } from '@angular/cdk/overlay';
 
 import { TooltipCdkComponent } from './tooltip-cdk.component';
 import { TooltipCdkRoutingModule } from './tooltip-cdk-routing.module';
@@ -14,7 +15,9 @@ import { TooltipDataComponent } from './tooltip-data/tooltip-data.component';
   ],
   imports: [
     CommonModule,
-    TooltipCdkRoutingModule
-  ]
+    TooltipCdkRoutingModule,
+    OverlayModule
+  ],
+  entryComponents: [TooltipDataComponent]
 })
 export class TooltipCdkModule { }
