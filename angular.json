@@ -124,8 +124,5 @@
       }
     }
   },
-  "defaultProject": "angular-concepts-lab",
-  "cli": {
-    "analytics": false
-  }
+  "defaultProject": "angular-concepts-lab"
 }
